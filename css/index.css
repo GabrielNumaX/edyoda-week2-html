@@ -37,6 +37,51 @@ body {
   width: 100%;
 }
 
+/*this divs were added to remove the img tag from html
+according to suggestion from Vaibhav*/
+
+.div-main-img{
+  background-image: url('http://topickr.com/img/posteo/thumb/437_paisajes-bonitos-en-argentina_3330.jpg');
+  background-size: cover;
+  height: 60vh;
+}
+
+.div-main-img-ny{
+  background-image: url('https://wallpaperstock.net/new-york-city-morning_wallpapers_37166_852x480.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.div-main-img-philly{
+  background-image: url('https://www.billgreenlee.com/wp-content/uploads/2015/02/philadelphia_12.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.div-main-img-wash{
+  background-image: url('https://cdn.abcotvs.com/dip/images/1403564_062716-wabc-shutterstock-lincoln-memorial-img.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.div-main-img-baires{
+  background-image: url('https://images8.alphacoders.com/841/thumb-1920-841065.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.div-main-img-florianopolis{
+  background-image: url('https://wallpapercave.com/wp/wp4201661.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.div-main-img-parana{
+  background-image: url('https://s-ec.bstatic.com/images/hotel/max1024x768/908/90832501.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
 h1{
   font-size: 38px;
   text-align: center;
@@ -149,8 +194,10 @@ h2 {
 
 textarea {
   font-size: 16px;
+  resize: none;
     /* property to block textarea so
-    it doesn't move from its lower right corner*/
+    it doesn't move from its lower right
+    resize: none;corner*/
 }
 
 .div-button {
